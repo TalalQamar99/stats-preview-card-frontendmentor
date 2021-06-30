@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="http://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"> 
+
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .back-color{
+      background-color: hsl(235, 50%, 10%);;
+    }
+    .outer-box{
+      background-color: hsl(244, 38%, 16%);
+      margin-top:150px;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      border-style:transparent;
+      width: 800px;
+      height: 350px;
+      border-radius: 5px;
+    }
+    .column-left {
+  float: left;
+  width: 50%;
+  height:175px;
+  color:white;
+  border-radius: 5px;
+}
+.mainhead{
+  font-size: 28px;
+  margin-left:15px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-family: "Inter";
+  /* margin-right: 15px; */
+  padding:20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.para{
+  color:rgb(218, 214, 214);
+  font-size: 14px;
+  padding:5px;
+  text-align:left;
+  margin-left: 25px;
+  margin-top: -15px;
+  font-family: "Lexend Deca";
+  padding:20px;
+}
+.img-style{
+  object-fit: cover;
+  width: 400px;
+  height:350px;
+}
+  </style>
+</head>
+<body class="back-color">
+<div class="outer-box">
+  <div class="row">
+    <div class="column-left attribution">
+      <h1 class="mainhead">Get
+        <span style="color:hsl(277, 49%, 46%); ">insights</span> 
+        that help your business grow.
+      </h1>
+      <p class="para">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+    </div>
+    <div class="column-left">
+      <img src="image-header-desktop.jpg" class="img-style">
+    </div>
+  </div> 
+</div>
+
+</body>
+</html>
