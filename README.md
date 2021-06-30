@@ -89,7 +89,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-  Get insights that help your business grow.
+  <!-- Get insights that help your business grow.
 
   Discover the benefits of data analytics and make better decisions regarding revenue, customer 
   experience, and overall efficiency.
@@ -101,4 +101,4 @@ This challenge is completely free. Please share it with anyone who will find it 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
