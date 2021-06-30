@@ -1,4 +1,4 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; color:white;}
 .attribution a { color: hsl(228, 45%, 44%); }
 .back-color{
       background-color: hsl(235, 50%, 10%);;
@@ -14,13 +14,6 @@
       height: 350px;
       border-radius: 5px;
     }
-.column-left {
-  float: left;
-  width: 50%;
-  height:175px;
-  color:white;
-  border-radius: 5px;
-}
 .mainhead{
   font-size: 28px;
   margin-left:15px;
@@ -29,14 +22,10 @@
   font-family: "Inter";
   /* margin-right: 15px; */
   padding:20px;
+  color:white;
 }
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .para{
   color:rgb(218, 214, 214);
   font-size: 14px;
@@ -47,16 +36,7 @@
   font-family: "Lexend Deca";
   padding:20px;
 }
-.img-style{
-  object-fit: cover;
-  width: 400px;
-  height:350px;
-}
-.box-over-img{
-  width:400px;
-  height: 350px;
-  background-color:hsl(228, 45%, 44%);
-}
+
 table{
   margin-left: 25px;
   margin-top: -25px;
@@ -66,13 +46,55 @@ table{
   font-size: 30px;
   padding: 7px;
   font-family: "Inter";
+  color: white;
 }
 .td2{
   font-size: 10px;
   font-family: "Lexend Deca";
+  color: white;
   
 }
 tr{
   margin-top: -10px;
   padding:10px;
+}
+.parent-div{
+  height: 100vh;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+}
+.content-div1{
+  width: 400px;
+  height: 350px;
+  background-color: hsl(244, 38%, 16%)
+}
+.content-div2{
+  width: 400px;
+  height: 350px;
+  background-color: white;
+
+}
+img{
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
+@media screen and (max-width: 375px) {
+ .parent-div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media screen and (max-width: 1440px) {
+  .parent-div{
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+  }
 }
