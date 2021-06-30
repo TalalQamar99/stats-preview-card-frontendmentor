@@ -98,7 +98,4 @@ This challenge is completely free. Please share it with anyone who will find it 
   314 templates
   12m+ queries
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+ -->
